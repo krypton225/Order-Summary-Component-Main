@@ -1,37 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Order summary card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+  <div class="bg-img"></div>
+  <div class="container">
+    <div class="container__img">
+      <img src="images/illustration-hero.svg" alt="Hero Image">
+    </div> <!-- ./container__img -->
 
-  Order Summary
+    <div class="container__content">
+      <h2 class="container__content__title">
+        order summary
+      </h2> <!-- ./container__title -->
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
+      <p class="container__content__desc">
+        You can now listen to millions of songs, <br>
+        audiobooks, and prodcasts on any devices <br>
+        anywhere you like!
+      </p> <!-- ./container__desc -->
 
-  Annual Plan
-  $59.99/year
+      <div class="container__content__plan">
+        <div class="container__content__plan__img">
+          <img src="images/icon-music.svg" alt="Icon Music">
+        </div> <!-- ./container__plan -->
 
-  Change
+        <div class="container__content__plan__desc">
+          <h4 class="container__content__plan__desc__title">annual plan</h4>
+          <p class="container__content__plan__desc__money">$59.99/year</p>
+        </div> <!-- ./container__plan -->
 
-  Proceed to Payment
-  Cancel Order
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+        <a href="#" class="container__content__plan__btn">change</a>
+      </div> <!-- ./container__plan -->
+
+      <div class="container__content__btns">
+        <a href="#">Proceed to Payment</a>
+        <a href="#">Cancel Order</a>
+      </div> <!-- ./container__btns -->
+    </div> <!-- ./container__content -->
+
+  </div> <!-- ./container -->
 </body>
+
 </html>

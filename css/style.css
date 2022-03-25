@@ -35,7 +35,7 @@ body {
 
 .container {
   width: 370px;
-  height: 560px;
+  height: 600px;
   text-align: center;
   border-radius: 20px;
   background-color: white;
@@ -106,6 +106,10 @@ body {
   margin-bottom: 5px;
 }
 
+.container__content__plan__desc__money {
+  color: #848a99;
+}
+
 .container__content__plan__btn {
   color: var(--bright-blue);
   text-transform: capitalize;
@@ -151,7 +155,4 @@ body {
 .container__content__btns a:nth-child(2) {
   color: hsl(255, 17%, 55%);
   margin-top: 20px;
-}
-
-.container__content__btns a:nth-child(2):hover {
 }
